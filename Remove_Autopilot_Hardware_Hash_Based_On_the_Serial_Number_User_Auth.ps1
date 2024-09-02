@@ -50,7 +50,7 @@ Connect-MgGraph
 #Connect-MgGraph -Scopes DeviceManagementServiceConfig.ReadWrite.All
 
 # Query Microsoft Graph Endpoints and filter for conditions
-$allAutopilot = Get-MgBetaDeviceManagementWindowsAutopilotDeviceIdentity 
+$allAutopilot = Get-MgBetaDeviceManagementWindowsAutopilotDeviceIdentity -All
 
 
 # Initialize lists
